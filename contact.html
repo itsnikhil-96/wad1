@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - College Website</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #004080;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    /* Contact Section */
+    #contact {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .left-side {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left-side a {
+      display: block;
+    }
+
+    .left-side img {
+      width: 100%;
+      max-width: 500px; /* Adjust the image size */
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .left-side img:hover {
+      transform: scale(1.05);
+    }
+
+    .right-side {
+      width: 50%;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .right-side h1 {
+      margin-bottom: 20px;
+      color: #004080;
+    }
+
+    .contact-details h2 {
+      margin-bottom: 10px;
+      color: #004080;
+    }
+
+    .contact-details p {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">PVPSIT</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="faculty.html">Faculty Info</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="contact">
+    <!-- Left side: Image that redirects to Google Maps -->
+    <div class="left-side">
+      <a href="https://www.google.com/maps/place/Prasad+V.+Potluri+Siddhartha+Institute+Of+Technology/@16.4876622,80.6916488,16.79z/data=!4m6!3m5!1s0x3a35fb3d5f7810a9:0x4a6d6804b71db09!8m2!3d16.4876606!4d80.6941328!16s%2Fg%2F1tdflpms?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img src="pvpsit.png" alt="College Location">
+      </a>
+    </div>
+
+    <!-- Right side: Contact Information -->
+    <div class="right-side">
+      <h1>Contact Us</h1>
+      <div class="contact-details">
+        <h2>Address:</h2>
+        <p>Beside VR Siddhartha College, Kanuru, Vijayawada</p>
+        <h2>Phone Numbers:</h2>
+        <p>Office: (123) 456-7890</p>
+        <p>Admissions: (123) 456-7891</p>
+        <h2>Email:</h2>
+        <p>pvpsit@gmail.com</p>
+        <p>admissionspvpsit@gmail.com</p>
+        <h2>Office Hours:</h2>
+        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+        <p>Saturday: 10:00 AM - 2:00 PM</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

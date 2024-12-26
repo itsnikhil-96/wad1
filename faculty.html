@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Info - College Website</title>
+  <link rel="stylesheet" href="faculty-styles.css">
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #004080;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    /* Faculty Section */
+    #faculty {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .faculty-container {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .faculty-container h1 {
+      margin-bottom: 20px;
+      color: #004080;
+    }
+
+    .faculty-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .faculty-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .faculty-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .faculty-card h2 {
+      margin-bottom: 10px;
+      color: #004080;
+    }
+
+    .faculty-card p {
+      font-size: 1rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">PVPSIT</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="faculty.html">Faculty Info</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="faculty">
+    <div class="faculty-container">
+      <h1>Our Faculty</h1>
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 1">
+          <h2>Dr. John Doe</h2>
+          <p>Department: Computer Science</p>
+          <p>Qualification: Ph.D. in AI</p>
+          <p>Contact: 123-456-7890</p>
+        </div>
+
+        <div class="faculty-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 2">
+          <h2>Dr. Jane Smith</h2>
+          <p>Department: Electronics</p>
+          <p>Qualification: Ph.D. in VLSI Design</p>
+          <p>Contact: 987-654-3210</p>
+        </div>
+
+        <div class="faculty-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 3">
+          <h2>Dr. Alan Brown</h2>
+          <p>Department: Mechanical Engineering</p>
+          <p>Qualification: Ph.D. in Robotics</p>
+          <p>Contact: 555-666-7777</p>
+        </div>
+        <div class="faculty-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 1">
+            <h2>Dr. John Doe</h2>
+            <p>Department: Computer Science</p>
+            <p>Qualification: Ph.D. in AI</p>
+            <p>Contact: 123-456-7890</p>
+          </div>
+  
+          <div class="faculty-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 2">
+            <h2>Dr. Jane Smith</h2>
+            <p>Department: Electronics</p>
+            <p>Qualification: Ph.D. in VLSI Design</p>
+            <p>Contact: 987-654-3210</p>
+          </div>
+  
+          <div class="faculty-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMk7k-Bq6sxSwg5mh1Qiocr1K3fb1UKEUv1g&s" alt="Faculty 3">
+            <h2>Dr. Alan Brown</h2>
+            <p>Department: Mechanical Engineering</p>
+            <p>Qualification: Ph.D. in Robotics</p>
+            <p>Contact: 555-666-7777</p>
+          </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

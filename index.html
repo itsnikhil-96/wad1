@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">PVPSIT</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="faculty.html">Faculty Info</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="home-container">
+      <div class="home-image">
+        <img src="pvpsit.jpeg" alt="College Campus">
+      </div>
+      <div class="home-content">
+        <h1>Welcome to PVPSIT</h1>
+        <p>Empowering students for a brighter future.</p>
+        <h2>Why Choose Us?</h2>
+        <p>Our college provides a dynamic learning environment with world-class infrastructure, experienced faculty, and exceptional placement opportunities.</p>
+
+        <h2>Facilities</h2>
+        <ul>
+          <li>State-of-the-art Laboratories</li>
+          <li>Modern Library with Digital Resources</li>
+          <li>Sports</li>
+          <li>Comfortable Hostel Facilities</li>
+        </ul>
+
+        <h2>Student Life</h2>
+        <p>Engage in various cultural and technical events, clubs, and activities to enhance your learning experience and develop leadership skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #004080;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffcc00;
+    }
+
+    #home {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .home-container {
+      display: flex;
+      width: 100%;
+    }
+
+    .home-image {
+      flex: 1;
+    }
+
+    .home-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .home-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .home-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .home-content p {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .home-content h2 {
+      margin-top: 15px;
+      font-size: 1.8rem;
+    }
+
+    .home-content ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    .home-content ul li {
+      margin: 5px 0;
+    }
+  </style>
+</body>
+</html>
